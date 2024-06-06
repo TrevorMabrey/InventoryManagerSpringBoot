@@ -31,8 +31,12 @@ min and max constructors part.java - line 48-49 57-58\
 min and max getters/setters part.java - line 63-74\
 renamed called setters in bootstrapdata.java\
 renamed spring-boot-h2-db.mv.db database to "ItemData" and renamed in app. properties\
-added boolean method in part.java to check if min and max are in bounds - line 129-138\
+added boolean method in part.java to check if min and max are in bounds - line 129-138
+
+## -Task H-
 call checkValid method as part of form submission Addinhousepartcontroller - line 43-48\
-Addoutsourcedpartcontroller 44-49
+call checkValid method as part of form submission Addoutsourcedpartcontroller 44-49\
+
+
 
 
