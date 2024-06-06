@@ -25,3 +25,4 @@ public class InhousePart extends Part{
         this.partId = partId;
     }
 }
+
