@@ -169,6 +169,8 @@ boolean isValid = part.checkValid();
 ```
 
 ## -Task I-
+Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package. \
+\
 created 2 test classes in PartTest.java for max test and min test - line 159-175
 ```
 @Test
@@ -189,6 +191,8 @@ void minTest(){
         assertEquals(100,partOut.getMaxInv());
     }
 ```
-
-
+## -Task J-
+Remove the class files for any unused validators in order to clean your code. \
+\
+removed DeletePartValidator.java from project files
 
