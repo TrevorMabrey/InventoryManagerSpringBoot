@@ -14,3 +14,8 @@ about paragraph added - line 20-23\
 added aboutcontroller.java to controllers with mapping
 about us button added mainscreen.html line 20
 added home button about.html - line 17
+
+## -Task E-
+added 5 parts in bootstrap.java - line 44-109
+added 5 products in bootstrapdata.java - line 125-134
+
