@@ -48,7 +48,7 @@ public class BootStrapData implements CommandLineRunner {
         o.setName("Steering wheel");
         o.setInv(5);
         o.setPrice(20.0);
-        o.setId(100L);
+        o.setId(101L);
         outsourcedPartRepository.save(o);
         OutsourcedPart thePart=null;
         outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
@@ -61,7 +61,7 @@ public class BootStrapData implements CommandLineRunner {
         p.setName("Trophy frame");
         p.setInv(5);
         p.setPrice(20.0);
-        p.setId(100L);
+        p.setId(102L);
         outsourcedPartRepository.save(p);
         thePart=null;
         outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
@@ -74,7 +74,7 @@ public class BootStrapData implements CommandLineRunner {
         q.setName("Gaming monitor");
         q.setInv(5);
         q.setPrice(20.0);
-        q.setId(100L);
+        q.setId(103L);
         outsourcedPartRepository.save(q);
        thePart=null;
         outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
@@ -87,7 +87,7 @@ public class BootStrapData implements CommandLineRunner {
         r.setName("TH8 shifter");
         r.setInv(5);
         r.setPrice(20.0);
-        r.setId(100L);
+        r.setId(104L);
         outsourcedPartRepository.save(r);
         thePart=null;
         outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
@@ -100,7 +100,7 @@ public class BootStrapData implements CommandLineRunner {
         s.setName("CSL elite pedals");
         s.setInv(5);
         s.setPrice(20.0);
-        s.setId(100L);
+        s.setId(105L);
         outsourcedPartRepository.save(s);
         thePart=null;
         outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();

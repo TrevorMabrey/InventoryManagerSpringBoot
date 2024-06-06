@@ -19,3 +19,7 @@ added home button about.html - line 17
 added 5 parts in bootstrap.java - line 44-109
 added 5 products in bootstrapdata.java - line 125-134
 
+## -Task F-
+added button to mainscreen.html - line 86
+added BuyController.java to controllers with logic for decrementing inventory
+Added success.html and failure.html pages for notification of purchase
