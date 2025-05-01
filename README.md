@@ -1,5 +1,5 @@
 ## -Task C-
-Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts. \
+
 \
 renamed title - line 14  ```<title>Sim Racing Hub</title>``` \
 renamed header - line 19 ```<h1>Sim Racing Hub</h1>``` \
@@ -7,7 +7,6 @@ renamed header - line 22 ```<h2>Components</h2>``` \
 renamed header - line 54 ```<h2>Full Setups</h2>```
 
 ## -Task D-
-Add an “About” page to the application to describe your chosen customer’s company to web viewers and include navigation to and from the “About” page and the main screen. \
 \
 about.html created\
 title changed - line 14 ```<title>About Us</title>``` \
@@ -43,7 +42,7 @@ about us button added mainscreen.html line 20 ```<a th:href="@{/about}" class="b
 added home button about.html - line 17 ```<a th:href="@{/mainscreen}" class="btn btn-primary btn-sm mb-3">Home</a>``` 
 
 ## -Task E-
-Add a sample inventory appropriate for your chosen store to the application. You should have five parts and five products in your sample inventory and should not overwrite existing data in the database. \
+
 \
 added 5 parts in BootStrapData.java - line 44-109 *template below*
 ```
@@ -68,10 +67,6 @@ productRepository.save(Budget);
 ```
 
 ## -Task F-
-Add a “Buy Now” button to your product list. Your “Buy Now” button must meet each of the following parameters:\
-•  The “Buy Now” button must be next to the buttons that update and delete products.\
-•  The button should decrement the inventory of that product by one. It should not affect the inventory of any of the associated parts.\
-•  Display a message that indicates the success or failure of a purchase.\
 \
 added button to mainscreen.html - line 86 ``` <a th:href="@{/buy(productID=${tempProduct.id})}" class="btn btn-primary btn-sm mb-3">Buy Now</a> ``` \
 added BuyController.java to controllers with logic for decrementing inventory
@@ -101,12 +96,6 @@ added BuyController.java to controllers with logic for decrementing inventory
 Added success.html and failure.html pages for notification of purchase
 
 ## -Task G-
-Modify the parts to track maximum and minimum inventory by doing the following: \
-•  Add additional fields to the part entity for maximum and minimum inventory. \
-•  Modify the sample inventory to include the maximum and minimum fields. \
-•  Add to the InhousePartForm and OutsourcedPartForm forms additional text inputs for the inventory so the user can set the maximum and minimum values. \
-•  Rename the file the persistent storage is saved to. \
-•  Modify the code to enforce that the inventory is between or at the minimum and maximum value. 
 
 set min and max fields in bootstrapdata.java - line 52-53 67-68 82-83 97-98 112-113\
 added minimum and maximum inventory fields to part.java - line 31-34
@@ -166,7 +155,6 @@ boolean isValid = part.checkValid();
 ```
 
 ## -Task I-
-Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package. \
 \
 created 2 test classes in PartTest.java for max test and min test - line 159-175
 ```
@@ -189,7 +177,6 @@ void minTest(){
     }
 ```
 ## -Task J-
-Remove the class files for any unused validators in order to clean your code. \
 \
 removed DeletePartValidator.java from project files
 
